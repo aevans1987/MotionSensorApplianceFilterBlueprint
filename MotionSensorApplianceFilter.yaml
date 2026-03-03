@@ -14,7 +14,7 @@ blueprint:
         entity:
           filter:
             - domain: binary_sensor
-              device_class: vibration
+              device_class: motion
           multiple: false
     stop_delay:
       name: Started-to-Stopped transition threshold
